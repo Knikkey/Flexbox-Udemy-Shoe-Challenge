@@ -1,0 +1,183 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+article {
+  width: 825px;
+  font-family: sans-serif;
+  border: 5px black solid;
+  line-height: 1.5;
+  margin: 20px auto;
+  position: relative;
+}
+
+.title {
+  background-color: grey;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.content {
+  display: flex;
+  height: 300px;
+  gap: 20px;
+}
+
+img {
+  /* height: 300px; */
+  border-top: 5px black solid;
+  border-right: 5px black solid;
+  flex: 1;
+}
+
+.sold-out {
+  width: 256.67px;
+  border-top: 5px black solid;
+  border-right: 5px black solid;
+  flex: 1;
+}
+
+.basic-info {
+  padding-top: 20px;
+  flex: 1;
+}
+
+.product-deets {
+  padding-top: 20px;
+  flex: 1;
+}
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 22px;
+  line-height: 0;
+}
+
+.free-shipping {
+  color: #444;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.description {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  padding: 5px 15px;
+  border: 2px black solid;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+}
+
+.color-box {
+  display: flex;
+  gap: 4px;
+  height: 25px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.colors {
+  /* width: 20px;
+  height: 20px; */
+  /* display: inline-block; */
+  border: 2px black solid;
+  flex: 0 0 20px;
+  height: 20px;
+}
+
+.colors:hover {
+  cursor: pointer;
+}
+
+.colors-clicked {
+  /* width: 25px;
+  height: 25px; */
+  /* display: inline-block; */
+  border: 2px black solid;
+  flex: 0 0 25px;
+  height: 25px;
+}
+
+#color1 {
+  background-color: black;
+}
+
+#color2 {
+  background-color: navy;
+}
+
+#color3 {
+  background-color: white;
+}
+
+#color4 {
+  background-color: yellow;
+}
+
+#color5 {
+  background-color: magenta;
+}
+
+#color6 {
+  background-color: red;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.product-details {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  padding: 40px auto;
+  width: 100%;
+  height: 50px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border-top: 5px black solid;
+  cursor: pointer;
+}
